@@ -3,8 +3,7 @@ import 'package:dartz/dartz.dart';
 
 /// Defines the contract for authentication-related operations.
 ///
-/// Implementations provide methods for user registration, OTP (One-Time Password) flows,
-/// logout, address management, and accessing delivery locations.
+/// Implementations provide methods for user auth
 abstract class AuthFacade {
   ResultFuture<Unit> login(String email, String password) {
     throw UnimplementedError();
